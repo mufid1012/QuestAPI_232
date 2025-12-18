@@ -23,7 +23,7 @@ data class DetailSiswa(
     val telpon: String = ""
 )
 
-fun DetailSiswa.toSiswa(): DataSiswa = DataSiswa(
+fun DetailSiswa.toDataSiswa(): DataSiswa = DataSiswa(
     id = id,
     nama = nama,
     alamat = alamat,
