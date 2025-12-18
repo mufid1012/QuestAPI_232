@@ -6,6 +6,9 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.localrestapi.view.route.DestinasiEntry
+import com.example.localrestapi.view.route.DestinasiHome
+import com.example.localrestapi.view.EntrySiswaScreen
 import com.example.localrestapi.view.HomeScreen
 
 @Composable
@@ -15,16 +18,24 @@ fun DataSiswaApp(
 ) {
     NavHost(
         navController = navController,
-        startDestination = "home",
+        startDestination = DestinasiHome.route,
         modifier = modifier
     ) {
-        composable("home") {
+        composable(DestinasiHome.route) {
             HomeScreen(
                 navigateToItemEntry = {
-                    // nanti ke EntryScreen
+                    navController.navigate(DestinasiEntry.route)
                 },
-                navigateToItemUpdate = { id ->
-                    // nanti ke UpdateScreen
+                navigateToItemUpdate = {
+                    // nanti
+                }
+            )
+        }
+
+        composable(DestinasiEntry.route) {
+            EntrySiswaScreen(
+                navigateBack = {
+                    navController.popBackStack()
                 }
             )
         }
