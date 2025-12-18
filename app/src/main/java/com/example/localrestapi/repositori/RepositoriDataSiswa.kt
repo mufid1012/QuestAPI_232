@@ -1,6 +1,6 @@
 package com.example.localrestapi.repository
 
-import com.example.localrestapi.model.DataSiswa
+import com.example.localrestapi.modeldata.DataSiswa
 import com.example.localrestapi.service.ServiceApiSiswa
 
 interface RepositoryDataSiswa {
