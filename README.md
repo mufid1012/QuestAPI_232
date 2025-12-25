@@ -17,3 +17,14 @@
 5. Tampilan Data Siswa Setelah Tambah Siswa
    
    <img width="240" height="531" alt="image" src="https://github.com/user-attachments/assets/dc7df80d-5ae5-42f4-ac77-11df424b70b1" />
+
+6. Tampilan Detail Siswa
+   <img width="236" height="507" alt="image" src="https://github.com/user-attachments/assets/88dc61fd-e6e2-433a-b6ec-65dddb045475" />
+
+7. Tampilan Hapus
+   <img width="252" height="514" alt="image" src="https://github.com/user-attachments/assets/51ed6c63-bc13-4f11-ae85-c189b5c159bd" />
+
+8. Tampilan Data Siswa Setelah Hapus Data
+   <img width="239" height="509" alt="image" src="https://github.com/user-attachments/assets/40634bb3-8b03-4144-8aa9-bc14df3ab214" />
+
+
